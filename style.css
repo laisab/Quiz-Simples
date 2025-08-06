@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Monaco", monospace;
+    box-sizing: border-box;
+}
+
+body{
+    background: #778899;
+}
+
+.app{
+    background: #708090;
+    border: 1px solid #000000;
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.app h1{
+    font-size: 25px;
+    color: #1C1C1C;
+    font-weight: 600;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inicio{
+    padding: 20px 0;
+}
+
+.tela-quiz{
+    padding: 20px 0;
+}
+
+.tela-quiz h2{
+    font-size: 18px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#answer-buttons{
+    display: grid; /* Organização dos botões em grade */
+    grid-template-columns: 1fr; /* Uma coluna; ocupação do espaço todo */
+    gap: 10px; /* Espaço entre os botões */
+    margin-bottom: 20px;
+}
+
+.btn{
+    background: #A9A9A9;
+    color: #000000;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    align-items: center;
+}
+
+.btn:hover:not([disabled]){
+    background: #778899;
+    color: #FFFFFF;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+    opacity: 0.5;
+}
+
+.btn.correct{
+    background: #4CAF50;
+    color: #FFFFFF;
+}
+
+.btn.incorrect{
+    background: #F44336;
+    color: #FFFFFF;
+}
+
+#next-btn{
+    display: none;
+    margin-top: 20px;
+}

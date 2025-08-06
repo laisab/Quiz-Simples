@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="quiz_icon.png">
+    <!--<link rel="icon" href="img/iconTotoro.png">-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>QUIZ DE TEMÁTICA GERAL</h1>
+        <div class="inicio" id="tela-inicial">
+            <div id="nivel-btn">
+                <!-- data-level para facilitar a identificação no JavaScript -->
+                <button class="btn" data-level="facil">Nível Fácil</button>
+                <button class="btn" data-level="medio">Nível Médio</button>
+                <button class="btn" data-level="dificil">Nível Difícil</button>
+            </div>
+        </div>
+
+        <!-- Tela inicialmente escondida -->
+        <div class="quiz" id="tela-quiz" style="display: none;">
+            <h2 id="question">Questão aqui</h2>
+            <div id="answer-buttons">
+                <!-- Botões inseridos aqui pelo JS -->
+            </div>
+            <button class="btn" id="next-btn" style="display: none;">Próxima</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
