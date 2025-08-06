@@ -15,7 +15,7 @@ Este repositório abriga um quiz interativo, feito com carinho usando HTML, CSS 
 
 É super fácil! Graças à magia do Vercel, o quiz está online e pronto para ser acessado:
 
-[**quiz-simples-nine.vercel.app**]
+[Clique aqui para jogar o Quiz Generalista!](https://quiz-simples-nine.vercel.app/)
 
 ### Por Que Criar Este Quiz? 🤓
 
